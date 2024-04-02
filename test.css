@@ -1,0 +1,38 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.menu-top {
+    position: relative;
+    height: 50px;
+    background-color: aqua;
+}
+
+.menu-top ul {
+    text-align: center;
+}
+
+.ten-menu {
+    position: absolute;
+    display: block;
+    float: right;
+    top: 5px;
+    right: 200px;
+    list-style-type: none;
+
+}
+
+.ten-menu li {
+    display: inline-block;
+    margin-left: 90px;
+    font-size: 15px;
+    padding: 10px;
+
+}
+
+.menu-top img {
+    width: 50px;
+    margin: auto;
+}
